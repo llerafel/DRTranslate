@@ -1,0 +1,16 @@
+ContextMenu_RU = {
+	////DRTranslate Team////
+
+	////Original path: mods/Authentic Z - Current/media/lua/shared/Translate/EN/ContextMenu_EN.txt////
+	ContextMenu_WearSideways = "Носить сбоку",
+	ContextMenu_UntieBonnet = "Развязать шляпку",
+	ContextMenu_TieBonnet = "Завязать шляпку",
+	ContextMenu_Wear1XS = "Носить как XS",
+	ContextMenu_Wear1XL = "Носить как XL",
+	ContextMenu_Wear2XL = "Носить как 2XL",
+	ContextMenu_Wear3XL = "Носить как 3XL",
+	ContextMenu_Stopping_Chainsaw = "Остановить бензопилу",
+	ContextMenu_Fuel_Left = "Остаток топлива",
+	ContextMenu_RetrieveFuel_Chainsaw = "Слить топливо",
+
+}

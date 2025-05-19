@@ -1,0 +1,24 @@
+UI_RU = {
+	////DRTranslate Team////
+
+	////Original path: mods/More Traits/media/lua/shared/Translate/EN/UI_EN.txt////
+	UI_trait_hardyrest = "Продолжайте отдыхать",
+	UI_progunammo = "Мастерство сохранило ваши боеприпасы!",
+	UI_trait_antigun = "Активист против оружия",
+	UI_trait_antigundesc = "Вы против огнестрельного оружия и не имеете опыта в обращении с ним, что делает вас менее эффективным с огнестрелом.<br>Вы дольше прицеливаетесь, стреляете на меньшее расстояние и испытываете грусть, когда используете огнестрел.<br>Вы получаете на 25% меньше опыта в точности.",
+	UI_burnedcannotequip = "Ваша боязнь огня не позволяет держать этот предмет!",
+	UI_burnedstop = "Ваша боязнь огня не позволяет разжечь огонь!",
+	UI_trait_unwavering = "Непоколебимый",
+	UI_trait_unwaveringdesc = "Штраф к скорости от травм уменьшен.<br>Вы выходите из стана после атак зомби вдвое быстрее.",
+	UI_trait_idealweight = "Идеальный вес",
+	UI_trait_idealweightdesc = "Вы следите за своим весом.<br>Вы получаете в 1.5 раза больше калорий, когда вас вес меньше 78.<br>Вы получаете 0.75 калорий, когда ваш вес больше 82.",
+	UI_trait_quickrest = "Быстрый отдых",
+	UI_trait_quickrestdesc = "Сидя на стуле, вы быстрее отдыхаете. Вы получите уведомление, когда полностью отдохнете ",
+	UI_quickrestfullendurance = "Вы отдохнули.",
+	UI_MoreTraits_Options_ProwessGunsAmmo = "Уведолмять, когда \"Мастерство: огнестрельное оружие\" сохраняет боеприпасы",
+	UI_MoreTraits_Options_ProwessGunsAmmo_ToolTip = "Если у вас есть перк \"Мастерство: огнестрельное оружие\", будет показываться уведомление, когда он срабатывает и сохраняет боеприпасы.",
+
+	////Original path: mods/Authentic Z - Current/media/lua/shared/Translate/EN/UI_EN.txt////
+	UI_Fuel_Remaining = "Остаток топлива:",
+
+}

@@ -1,0 +1,9 @@
+Recipes_RU = {
+	////DRTranslate Team////
+
+	////Original path: mods/Authentic Z - Current/media/lua/shared/Translate/EN/Recipes_EN.txt////
+	Recipe_Revert_Attachable = "Прикрепить обратно",
+	Recipe_Restart_Chainsaw = "Перезапустить бензопилу",
+	fixing_Fix_Chainsaw = "Починить бензопилу",
+
+}

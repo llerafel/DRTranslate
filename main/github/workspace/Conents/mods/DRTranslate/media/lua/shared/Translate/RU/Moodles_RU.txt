@@ -1,0 +1,22 @@
+Moodles_RU = {
+	////DRTranslate Team////
+
+	////Original path: mods/More Traits/media/lua/shared/Translate/EN/Moodles_EN.txt////
+	Moodles_MTAlcoholism_Good_lvl1 = "Чуточку бахнул",
+	Moodles_MTAlcoholism_Good_desc_lvl1 = "Успокоил жажду выпивки",
+	Moodles_MTAlcoholism_Good_lvl2 = "Выпил",
+	Moodles_MTAlcoholism_Good_desc_lvl2 = "Хорошенько бахнул",
+	Moodles_MTAlcoholism_Good_lvl3 = "Насытился бухлишком",
+	Moodles_MTAlcoholism_Good_desc_lvl3 = "Чувствую себя очень здорово!",
+	Moodles_MTAlcoholism_Good_lvl4 = "Нажрался",
+	Moodles_MTAlcoholism_Good_desc_lvl4 = "Какое-то время лучше обойтись без выпивки!",
+	Moodles_MTAlcoholism_Bad_lvl1 = "Тоска по алкашке",
+	Moodles_MTAlcoholism_Bad_desc_lvl1 = "Прошло уже некоторое время без бухла. <br>Пока никаких негативных эффектов",
+	Moodles_MTAlcoholism_Bad_lvl2 = "Ломка по алкоголю",
+	Moodles_MTAlcoholism_Bad_desc_lvl2 = "Трудновато игнорировать жажду бухла.<br>Стал раздражительнее.",
+	Moodles_MTAlcoholism_Bad_lvl3 = "Жажда алкашки",
+	Moodles_MTAlcoholism_Bad_desc_lvl3 = "Хотя бы глоток...<br>Увеличен стресс.",
+	Moodles_MTAlcoholism_Bad_lvl4 = "Я что, бросаю?",
+	Moodles_MTAlcoholism_Bad_desc_lvl4 = "Сделал бы что угодно ради выпивки.<br>Будет становится все более больным каждый день, пока не выпьет.",
+
+}

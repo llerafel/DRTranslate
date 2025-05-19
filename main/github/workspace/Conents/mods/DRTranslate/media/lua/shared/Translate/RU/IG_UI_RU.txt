@@ -1,0 +1,39 @@
+IGUI_RU = {
+	////DRTranslate Team////
+
+	////Original path: mods/Authentic Z - Current/media/lua/shared/Translate/EN/IG_UI_EN.txt////
+	IGUI_HotbarAttachment_DufflebagBottleRight = "Спортивная сумка отсек для бутылки",
+	IGUI_HotbarAttachment_ARVNBottleRight = "Рюкзак отсек для бутылки",
+	IGUI_HotbarAttachment_ARVNBottleLeft = "Рюкзак отсек для бутылки",
+	IGUI_HotbarAttachment_ARVNPlushie = "Рюкзак отсек для игрушки",
+	IGUI_HotbarAttachment_ARVNUmbrellaRight = "Рюкзак вспомогательный отсек",
+	IGUI_HotbarAttachment_ARVNItemSlot1 = "Рюкзак отсек 1",
+	IGUI_HotbarAttachment_ARVNItemSlot2 = "Рюкзак отсек 2",
+	IGUI_HotbarAttachment_ARVNItemSlot3 = "Рюкзак отсек 3",
+	IGUI_HotbarAttachment_ARVNItemSlot4 = "Рюкзак отсек 4",
+	IGUI_HotbarAttachment_ARVNItemSlot5 = "Рюкзак отсек 5",
+	IGUI_HotbarAttachment_ARVNFlashlight = "Рюкзак отсек для фонарика",
+	IGUI_HotbarAttachment_ARVNSecondary = "Рюкзак запасной карман",
+	IGUI_HotbarAttachment_AZWebbingLeft = "Лямка левый отсек",
+	IGUI_HotbarAttachment_AZWebbingRight = "Лямка правый отсек",
+	IGUI_HotbarAttachment_DufflebagBalloonLeft = "Отсек для шарика",
+	IGUI_CraftCategory_Tailoring = "Шитье",
+	IGUI_HotbarAttachment_HikingbagSleepingRoll = "Походная сумка спальный мешок",
+	IGUI_HotbarAttachment_BigHikingbagSleepingRoll = "Большая походная сумка спальный мешок",
+	IGUI_HotbarAttachment_AlicepackSleepingRoll = "Разгрузка спальный мешок",
+	IGUI_AuthenticZ_Manage_Slots = "AuthenticZ Управление навесами",
+	IGUI_ItemCat_Chainsaw = "Бензопила",
+	IGUI_ItemEditor_FuelConsumption = "Потребление топлива",
+	IGUI_ItemEditor_CurrentFuel = "Текущий запас топлива",
+	IGUI_ItemEditor_FuelCapacity = "Максимальный запас топлива",
+	IGUI_ItemEditor_RetrieveFuel = "Слить топливо",
+
+	////Original path: mods/FWO Treadmill & BenchPress/media/lua/shared/Translate/EN/IG_UI_EN.txt////
+	IGUI_BenchPress_Tooltip = "Делать жим лежа",
+	IGUI_Treadmill_Tooltip = "Тренироваться на беговой дорожке",
+	IGUI_need_barbell = "Мне нужна штанга, чтобы сделать это упражнение",
+	IGUI_low_endurance = "Я слишком измотан",
+	IGUI_pain = "Мне слишком больно",
+	IGUI_heavy = "Слишком тяжелая, чтобы использовать ее прямо сейчас",
+
+}
