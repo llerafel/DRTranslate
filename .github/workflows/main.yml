@@ -1,0 +1,46 @@
+name: Build and Upload Mod
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # Запускается каждый день в 8:00 UTC-3.
+  workflow_dispatch:  # Добавляем ручной запуск
+
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    container: python:3.9
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Run build script
+        id: build
+        env:
+          GOOGLE_SHEETS_API_URL: ${{ secrets.GOOGLE_SHEETS_API_URL }}
+        run: |
+          python build.py
+      - name: Upload to Steam Workshop
+        if: steps.build.outputs.BUILD_REQUIRED == 'true'
+        uses: Weilbyte/steam-workshop-upload@v1
+        with:
+          appid: 108600  # App ID для Project Zomboid
+          itemid: 3484516903  # Замените на ваш Item ID
+          path: 'Contents/mods'  # Загружаем всю папку Contents
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+          STEAM_TFASEED: ${{ secrets.STEAM_SHAREDSECRET }}
+
+      - name: Commit updated checksum
+        if: steps.build.outputs.BUILD_REQUIRED == 'true'
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add github/workspace/hash.txt
+          git commit -m "Update checksum after successful build"
+          git push
