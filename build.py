@@ -55,7 +55,7 @@ def fetch_data(api_url):
     Получение данных из Google Sheets через POST запрос.
     """
     try:
-        response = requests.post(api_url)
+        response = requests.post(api_url, json={"method":"export"})
         response.raise_for_status()
         print(response.content)
         return response.json()
