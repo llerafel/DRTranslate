@@ -34,7 +34,7 @@ jobs:
         env:
           STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
           STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
-          STEAM_TFASEED: ${{ secrets.STEAM_SHAREDSECRET }}
+          STEAM_TFASEED: ${{ secrets.STEAM_TFASEED }}
 
       - name: Commit updated checksum
         if: steps.build.outputs.BUILD_REQUIRED == 'true'
