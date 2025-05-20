@@ -57,6 +57,7 @@ def fetch_data(api_url):
     try:
         response = requests.post(api_url)
         response.raise_for_status()
+        print(response.content)
         return response.json()
     except requests.RequestException as e:
         logging.error(f"Ошибка при запросе данных: {e}")
